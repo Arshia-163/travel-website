@@ -1,0 +1,77 @@
+body{
+
+     
+    /*background-image: url(https://media.istockphoto.com/id/491391396/photo/venice.jpg?s=2048x2048&w=is&k=20&c=5-vrWfgFbopzHhPTOAD440IhAmq-872cEiokvmtF51U=); */
+    background-size: 100% 100%;
+    background-attachment:fixed ;
+    background-repeat:no-repeat;
+    background-image: url("https://images.unsplash.com/photo-1512100356356-de1b84283e18?q=80&w=1975&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+
+}
+
+header{
+    background-color: rgb(186, 221, 231);
+}
+
+#nav{
+    height: 75px;
+    border-bottom: 1px solid black;
+    padding-top: 10px;
+}
+
+.header{
+    display: flex;
+    justify-content: space-around;
+    padding-right: 80px;
+    float: right;
+    font-size: 20px;
+    padding-left: 600px;
+
+}
+#nav ul{
+    list-style: none;
+}
+
+#nav ul li{
+    margin: 3px 15px;
+}
+
+#nav ul li a{
+    text-decoration: none;
+}
+
+
+#show{
+	width: 400px;
+	color: #0074D9;
+	font-size: 20px;
+	font-weight: bold;
+	text-align: center;
+	cursor: pointer;
+    position: relative;
+    margin-top: 200px;
+    margin-left: 200px;
+    
+}
+@keyframes{
+    from{background-color:grey;}
+    to{background-color:blue;}
+}
+#show:hover{
+	background-color:antiquewhite;
+	box-shadow: 0 12px 16px 0 white;
+}
+.text{
+    margin-left: 900px;
+    position: relative;
+    top:80px;
+    font-size: 60px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-shadow: (0,0.5,0.5,0);
+    color:brown;
+    font-weight: 5px;
+
+
+
+
+}
